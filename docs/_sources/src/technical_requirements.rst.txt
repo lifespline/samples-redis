@@ -1,0 +1,40 @@
+.. raw:: html
+
+   <a href="https://github.com/lifespline/samples-redis.git"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork Me On Github" data-recalc-dims="1"></a>
+
+======================
+Technical Requirements
+======================
+
+R1: Network Rendering
+---------------------
+
+The network requires a library for rendering
+
+R2: Rendering Server
+--------------------
+
+The rendering requires a server/app
+
+R3: Network Persistence
+-----------------------
+
+R3.1: Network Persistence
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The network must be persisted.
+
+R3.2: Network Editing
+~~~~~~~~~~~~~~~~~~~~~
+
+The node and network information must be editable/removable
+
+R3.3: Network Decoupling
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+The persisted information must be independent from the network layer
+
+R4: Network Interaction
+-----------------------
+
+There must be a layer handling the interaction with the network, the layer must be decoupled.
