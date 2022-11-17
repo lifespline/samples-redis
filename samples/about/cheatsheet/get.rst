@@ -1,0 +1,1 @@
+The GET command retrieves the value associated with the given key.

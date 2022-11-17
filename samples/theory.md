@@ -1,0 +1,3 @@
+- what is an entity?
+  - utility: 1
+  - solution: `class Person extends Entity {}`, it shows as the identity key as `Person:<hash>`
