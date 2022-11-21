@@ -15,7 +15,7 @@ Below, you'll find the release specifications of the latest development flow ite
    :caption: Contents:
 
    dev_flow/home
-   dev_flow//samples-redis
+   dev_flow/backlog
    dev_flow/problem_analysis
    dev_flow/architecture_analysis
    dev_flow/development
