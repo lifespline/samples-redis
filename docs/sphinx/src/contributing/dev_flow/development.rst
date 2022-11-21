@@ -6,4 +6,4 @@
 Development
 ===========
 
-Read through the `development docs <https://lifespline.github.io/agile/src/development_flow/development.html>`_ for an introduction on how to iteratively contribute to the **development** of this project.
+Read through the `development docs <https://lifespline.github.io/sample-redis/src/development_flow/development.html>`_ for an introduction on how to iteratively contribute to the **development** of this project.
