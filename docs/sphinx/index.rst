@@ -12,5 +12,6 @@ Welcome to the ``Artek Samples: Redis``.
    :maxdepth: 1
    :caption: Contents:
 
+   src/samples
    src/contributing
    src/literature
