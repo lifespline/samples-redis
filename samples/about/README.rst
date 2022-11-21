@@ -71,28 +71,51 @@ Data is stored in Redis using keys. Keys can be just about anything
 because they’re binary safe. For example, you could use an image
 as a key. Most keys are simple strings, though. Primary data models:
 
-String, bitmaps
-~~~~~~~~~~~~~~~
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
 
-The largest size for a single string value is 512MB.
+   data_models/string
+   data_models/hashes
+   data_models/hyper_log_log
+   data_models/list
+   data_models/set
+   data_models/sorted_hashes
+   data_models/patterns_and_data_structures
+   data_models/modules
 
+Cheatsheet
+----------
 
-List
-~~~~
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
 
-Lists are a way to store related data. In some contexts, lists are 
-called arrays, but in Redis, a list is a linked list, which means operations to write to the list are very fast. However, depending on where in the list the item is located, its performance is not as fast for read operations. Although not always appropriate because of repeated values, a set (discussed later) can sometimes be used when read speed is crucial.
-
-Lists use one key holding several ordered values, and values are stored as strings. You can add values to the head or tail (called left and right in Redis) of a list and you retrieve values by their index. Values within a list can repeat, meaning you may have the same value at a different index within the list.
-
-You can push a value onto a list with the LPUSH and RPUSH commands, which place values onto a list either on the left (or head) or on the right (or tail) of the list.
-
-Set
-~~~
-
-From an application standpoint, sets are somewhat like lists, in 
-that you use a single key to store multiple values. Unlike lists, though, sets are not retrieved by index number and are not sorted. Instead, you query to see if a member exists in the set. Also unlike lists, sets can’t have repeating members within the same key. Redis manages the internal storage for sets. The result is that you don’t work with set values in the same way that you do lists. For example, you can’t push and pop to the front and back of a set the
-way you can with a list.
+   cheatsheet/zrank
+   cheatsheet/xadd
+   cheatsheet/zadd
+   cheatsheet/psubscribe
+   cheatsheet/xrange
+   cheatsheet/rpush
+   cheatsheet/zrange
+   cheatsheet/publish
+   cheatsheet/sadd
+   cheatsheet/sismember
+   cheatsheet/hset
+   cheatsheet/pfadd
+   cheatsheet/subscribe
+   cheatsheet/geodist
+   cheatsheet/lindex
+   cheatsheet/incr
+   cheatsheet/set
+   cheatsheet/lrange
+   cheatsheet/pfcount
+   cheatsheet/zincrby
+   cheatsheet/lpush
+   cheatsheet/geoadd
+   cheatsheet/zrevrange
+   cheatsheet/get
+   cheatsheet/smembers
 
 Literature
 ----------
