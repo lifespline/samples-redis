@@ -1,13 +1,15 @@
-===========================================
-Artek Samples: Dockerizing a Redis database
-===========================================
+============================
+Dockerizing a Redis database
+============================
 
 Exercise
 --------
 
 Run docker container with redis database locally in the background. Persist a local file in the dockerized redis database, copy that file from the dockerized redis database locally.
 
-:download:`solution <../conf.py>`
+
+* Solution: `repo <https://github.com/lifespline/samples-redis/tree/latest/samples/dockering_a_redis_database>`_
+* Time of development: ``3.5h``
 
 Dependencies
 ------------
