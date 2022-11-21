@@ -6,4 +6,4 @@
 Home
 ====
 
-Read through the `home docs <https://lifespline.github.io/agile/src/development_flow/home.html>`_ for an introduction on how to iteratively contribute to the **home** of this project.
+Read through the `home docs <https://lifespline.github.io/sample-redis/src/development_flow/home.html>`_ for an introduction on how to iteratively contribute to the **home** of this project.

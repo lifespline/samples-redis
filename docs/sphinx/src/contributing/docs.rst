@@ -40,4 +40,4 @@ The pipeline automates manual build processes like (specifying the AWS profile):
    $ inv docs
    $ aws sso login
    $ aws cloudfront create-invalidation --distribution-id <id> --paths "/*"
-   $ aws s3 cp --recursive docs s3://backlog-docs
+   $ aws s3 cp --recursive docs s3:///samples-redis-docs

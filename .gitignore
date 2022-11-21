@@ -1,6 +1,5 @@
 # py venv
 .env
-backlog.ipynb
 
 # task runner py cache
 __pycache__
